@@ -8,6 +8,7 @@
 + ```--link <cname>``` links the container to another container "cname" 
 + ```--read-only ``` causes the container created in read-only mode, it cannot change its file system
 + ```-v <exception path>``` add exception paths to the mode of read-only 
++ ```--restart <no, on-failure[:number of trials], always, unless-stopped>``` instructs a docker about the restarting policy 
 + ```run <cname>``` creates and run a container
 + ```create <cname>``` creates a container, but not starts
 + ```start <cname>``` starts existing container
